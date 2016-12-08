@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cq</groupId>
-  <artifactId>jspmyadmin</artifactId>
+  <artifactId>jspadmin</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>jspadmin Maven Webapp</name>
@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<java_version>1.7</java_version>
+		<java_version>1.6</java_version>
 
 		<!-- For all tomcat servers -->
 		<tomcat_url>http://localhost:8080/manager/html</tomcat_url>
@@ -50,7 +50,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>jspmyadmin</finalName>
+		<finalName>jspadmin</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
